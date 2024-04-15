@@ -1,0 +1,120 @@
+html,body {
+	height: 100%;
+	background:linear-gradient(120deg, lightgreen, cyan, rgb(219, 183, 255));
+}
+ul,li {
+	color: aliceblue;
+	font-family:"Gill Sans", sans-serif;
+	font-style: italic;
+}
+
+p {
+	text-align: center;
+	color: aliceblue;
+	font-size: 150%;
+	font-style: italic;
+	font-family:"Gill Sans", sans-serif;
+	font-weight: bold;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	width:100%;
+	margin: 0 auto;
+	position: sticky;
+}
+
+nav ul li{		/*mise en forme des titres de categories*/
+	float: left;
+	width: 40%;
+	text-align: center;
+	
+}
+
+nav ul::after{
+	content: "";
+	display: table;
+	clear: both;
+	
+}
+
+q {
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav a{
+	display:block;
+	color: white;
+}
+
+.dropdown{
+	display:none;
+	/* box-shadow: 0px 1px 2px; */
+	background:linear-gradient(120deg, rgb(219, 193, 255), cyan, lightgreen);
+}
+
+.dropdown, a:hover, li:hover{
+	border-collapse:collapse;
+	border: 1.5px solid white;
+	background:linear-gradient(120deg, rgb(219, 193, 255), cyan, lightgreen);
+}
+nav > ul li:hover .dropdown {
+	display:block;
+}
+
+.dropdown li{
+	float:none;
+	width: 100%;
+	text-align: left;
+}
+
+.dropdown a{
+	padding:10px;
+	border-bottom: none;
+	color: white;
+	
+}
+
+.dropdown a:hover{
+	border-bottom: none;
+	background-color: RGBa(200,200,200,0.1);
+}
+
+.contact{
+	display:none;
+	/* box-shadow: 0px 1px 2px; */
+	background:linear-gradient(120deg, rgb(219, 193, 255), cyan, lightgreen);
+}
+
+.contact, a:hover, li:hover{
+	border-collapse:collapse;
+	border: 1.5px solid white;
+	background:linear-gradient(120deg, rgb(219, 193, 255), cyan, lightgreen);
+}
+nav > ul li:hover .contact {
+	display:block;
+}
+
+.contact li{
+	float:none;
+	width: 100%;
+	text-align: left;
+}
+
+.contact a{
+	padding:10px;
+	border-bottom: none;
+	color: white;
+	
+}
+
+.contact a:hover{
+	border-bottom: none;
+	background-color: RGBa(200,200,200,0.1);
+}

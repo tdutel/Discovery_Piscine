@@ -1,0 +1,33 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	font-size: 200%;
+	text-align: center;
+
+}
+
+table, tr, td, th {
+	width: 100%;
+	font-size: 120%;
+	align-items: center;
+	text-align: center;
+}
+
+.logo {
+	width:10%;
+	height:10%;
+}
+
+button {
+	width: 10%;
+	height: 10%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 150%;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Veuillez souffler dans le ballon</title>
+		<style>
+			html body {
+				width: 100%;
+				height: 100%;
+			}
+
+			div {
+				width: 200px;
+				height: 200px;
+				background-color: lightcoral;
+				border-radius: 50%;
+				/* border-radius: 10%32%90%1%; */
+			}
+		</style>
+		<script >
+
+			function bigger(balloon) {
+				let	size = balloon.clientWidth;
+				if (size < 420)
+					size += 10;
+				else
+					size = 200;
+		
+				balloon.style.height = size + "px";
+				balloon.style.width = size + "px";
+				
+				if (balloon.style.backgroundColor == "lightcoral")
+					balloon.style.backgroundColor = "lightgreen";
+				else if (balloon.style.backgroundColor == "lightgreen")
+					balloon.style.backgroundColor = "lightblue";
+				else if (balloon.style.backgroundColor == "lightblue")
+					balloon.style.backgroundColor = "lightcoral";
+				else
+					balloon.style.backgroundColor = "lightgreen";
+			}
+
+			function smaller(balloon) {
+				let	size = balloon.clientWidth;
+				if (size > 200)
+					size -= 5;
+
+
+				balloon.style.height = size + "px";
+				balloon.style.width = size + "px";
+
+				if (balloon.style.backgroundColor == "lightgreen")
+					balloon.style.backgroundColor = "lightcoral";
+				else if (balloon.style.backgroundColor == "lightblue")
+					balloon.style.backgroundColor = "lightgreen";
+				else if (balloon.style.backgroundColor == "lightcoral")
+					balloon.style.backgroundColor = "lightblue";
+				else
+					balloon.style.backgroundColor = "lightblue";
+			}
+		</script>
+	</head>
+	<body>
+		<div onclick="bigger(this)" onmouseleave="smaller(this)">
+		</div>
+	</body>
+</html>

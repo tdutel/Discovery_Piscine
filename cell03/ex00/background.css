@@ -1,0 +1,21 @@
+html, body {
+	background-color: #000000;
+	height: 100%;
+	margin:0;
+}
+
+.btn {
+	height: 70px;
+	width: 200px;
+
+	margin-top:100px;
+	margin-left: 100px;
+	background: linear-gradient(120deg,rgba(245, 248, 38, 0.799), lightgreen, cyan, rgba(255, 0, 255, 0.605));
+	border-radius: 15px;
+	border-width: 5px;
+	color: white;
+	font-size: 30px;
+	border-color: #ffffff;
+	cursor: pointer;
+
+}

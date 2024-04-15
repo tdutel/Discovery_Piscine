@@ -1,0 +1,39 @@
+html, body {
+	margin: 0px;
+	height: 100px;
+	background-color: rgb(57, 102, 130);
+}
+
+.parallax {
+	background-image:url("IMG_20220822_110133.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.parallax2 {
+	background-image:url("IMG_20220822_110133new.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+
+p {
+	color: white;
+	align-items: center;
+	justify-content: center;
+	font-size: 180%;
+	display: flex;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+/* 
+.transition {
+	margin: 0px;
+	background-color: rgb(26, 154, 180);
+} */

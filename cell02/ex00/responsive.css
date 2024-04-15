@@ -1,0 +1,14 @@
+table,th,tr,td {
+border:0.5px solid black;
+border-collapse:collapse;
+}
+
+.c1 {
+	background-color: #96D4D4;
+	text-align: center;
+}
+
+.c2 {
+	background-color: #D4D4;
+	text-align: center;
+}

@@ -1,0 +1,86 @@
+
+#indexbody {
+	background: linear-gradient(to right, #ff758c, #ff7eb3, #c377e0, #7f7fd5, #8e9eab);
+	font-family: 'Arial', sans-serif;
+  }
+
+  .container {
+	max-width: 800px;
+  }
+
+  .btn {
+	background-color: #6c757d;
+	color: #ffffff;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-size: 18px;
+	transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+	background-color: #495057;
+  }
+
+  .page-title {
+	color: #343a40;
+	animation: moveTitle 2s infinite alternate;
+  }
+
+  @keyframes moveTitle {
+	from {
+	  transform: translateX(-10px);
+	}
+	to {
+	  transform: translateX(10px);
+	}
+  }
+	
+	
+	
+	/*----------- bob -------------------*/
+	.background-section {
+      background-image: url('https://diveng.rosselcdn.net/sites/default/files/dpistyles/ena_16_9_extra_big/node_5598/14832/public/thumbnails/image/bobl27eponge.jpg?itok=OiL_A56y1696108123'); /* Remplacer 'background-image.jpg' par le chemin de votre image d'arrière-plan */
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+	  
+    }
+    .black-block {
+      background-color: black;
+      color: white;
+      padding: 50px;
+      text-align: center;
+    }
+    .second-image-section {
+      background-image: url('https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_SpongebobKrustyCookOff_FR_image1600w.jpg'); /* Remplacer 'second-image.jpg' par le chemin de votre deuxième image */
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+	h1, h2 {
+		font-size: 60px;
+		animation-duration: 5s;
+		animation-name: slidein;
+	  }
+	  
+	  @keyframes slidein {
+		from {
+		  margin-left: 100%;
+		  width: 300%;
+		}
+	  
+		to {
+		  margin-left: 0%;
+		  width: 100%;
+		}
+	  }
+	  
